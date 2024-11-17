@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Inter;
+}
+
+body {
+    background: url("./Figma page/img/bg_signin.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.div_img {
+    width: 100%;
+    text-align: center;
+}
+
+.all_card {
+    margin-top: 50px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.h1_01 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.p_01 {
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.D_btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn_M {
+    background: #1A7EDB;
+    color: #ffffff;
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn_M_02 {
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+.div_or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.Dline {
+    width: 40%;
+    height: 0;
+    border: 1px solid rgba(163, 161, 161, 0.734);
+}
+
+.p_or {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(163, 161, 161, 0.853);
+}
+
+.dp_S {
+    text-align: start;
+    margin-left: 30px;
+}
+
+.dp_S_02 {
+    text-align: end;
+    margin-right: 30px;
+}
+
+.div_inp {
+    position: relative;
+}
+
+.inp_H {
+    width: 320px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #0F172A;
+    padding: 5px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.p_inp {
+    color: #8F8C8C;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.img_local {
+    left: 45px;
+    top: 15px;
+    position: absolute;
+}
+
+.id {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn_F {
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 20px;
+    width: 350px;
+    height: 51px;
+    border-radius: 50px;
+    background: #FAC233;
+    border: none;
+}
+.p_F{
+    margin: 100px 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+}
